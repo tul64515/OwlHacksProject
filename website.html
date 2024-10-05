@@ -6,6 +6,25 @@
     </head>
     <style>
 
+        button{
+            display: flex;
+        }
+
+
+        table, th, td{
+                border: 3px solid black;
+                border-collapse: collapse;
+                height: 100%;
+                text-align: center;
+                background-color: pink;
+            }
+
+        .content{
+            display: flex;
+            flex-direction: row;
+        }
+
+        
 
     </style>
     <body>
@@ -19,25 +38,57 @@
                 <div> Popular </div>
                 <a class="about" href="about.html"> About </a>
             </div>
-            <button id="disappear">DISAPPEAR IN A POOF OF SMOKE</button>
 
-            <div class = "map">
-                <iframe id = "google_map" src="https://www.google.com/maps/d/u/0/embed?mid=1y-Sj5SXntEakQRzVSsgEBSIMHzLut3M&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+            <div class="content">
+                <div class = "map">
+                    <iframe id = "google_map" src="https://www.google.com/maps/d/u/0/embed?mid=1y-Sj5SXntEakQRzVSsgEBSIMHzLut3M&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+                </div>
+
+                <table id="data">
+                    <tbody>
+                        <tr>
+                            <th>Important detail</th>
+                            <th>Bathrooms</th>
+                            <th>Something else</th>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td>yes</td>
+                            <td><img id="disappear" src="Images/pin.png"></td>
+                        </tr>
+                        <tr>
+                            <td>yes</td>
+                            <td>maybe</td>
+                            <td><img id="vanish" src="Images/pin.png"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
             </div>
+
             
         </div>
     </body>
     <script>
 
         disappear.addEventListener("click", thing);
+        vanish.addEventListener("click", thing2 )
 
         function thing() {
-            if (document.getElementById("google_map").src == "https://www.google.com/maps/d/u/0/embed?mid=1y-Sj5SXntEakQRzVSsgEBSIMHzLut3M&ehbc=2E312F&noprof=1"){
+            if (document.getElementById("google_map").src != "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24455.754756635135!2d-75.1566848!3d39.986790400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c86ae2ff0fc3%3A0x1273baad5630028b!2sSuraya%20Restaurant!5e0!3m2!1sen!2sus!4v1728161790042!5m2!1sen!2sus"){
                 document.getElementById("google_map").src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24455.754756635135!2d-75.1566848!3d39.986790400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c86ae2ff0fc3%3A0x1273baad5630028b!2sSuraya%20Restaurant!5e0!3m2!1sen!2sus!4v1728161790042!5m2!1sen!2sus";
             }else{
                 document.getElementById("google_map").src = "https://www.google.com/maps/d/u/0/embed?mid=1y-Sj5SXntEakQRzVSsgEBSIMHzLut3M&ehbc=2E312F&noprof=1";
             }
 
+        }
+
+        function thing2() {
+            if (document.getElementById("google_map").src != "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24436.160398791028!2d-75.12551601420003!3d40.041493931144814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b657c88235fb%3A0xef856160cecf6fa7!2sThe%20Home%20Depot!5e0!3m2!1sen!2sus!4v1728163307132!5m2!1sen!2sus"){
+                document.getElementById("google_map").src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24436.160398791028!2d-75.12551601420003!3d40.041493931144814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b657c88235fb%3A0xef856160cecf6fa7!2sThe%20Home%20Depot!5e0!3m2!1sen!2sus!4v1728163307132!5m2!1sen!2sus";
+            }else{
+                document.getElementById("google_map").src = "https://www.google.com/maps/d/u/0/embed?mid=1y-Sj5SXntEakQRzVSsgEBSIMHzLut3M&ehbc=2E312F&noprof=1";
+            }
         }
 
     </script>

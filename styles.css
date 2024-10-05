@@ -3,7 +3,7 @@ html, body {
     margin: 0; /* Remove default margin */
 }
 body {
-    background-image: url(background.jpg); 
+    background-image: url(Images/background.jpg); 
 
 }
 /* .utility-row {
