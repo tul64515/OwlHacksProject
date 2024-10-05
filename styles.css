@@ -1,8 +1,27 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(Fonts/Ubuntu-Regular.woff);
+}
+
+body{
+    margin: 0;
+}
+
 .utility-row{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    background-color: rgb(139, 138, 135, .2);
+    overflow: hidden;
+
 }
+    .utility-row div{
+        font-family: Ubuntu;
+        text-align: center;
+        color: black;
+        font-size: 18px;
+        padding: 14px 14px;
+    }
+
 .header {
     color: black;
     font-family: Arial;
