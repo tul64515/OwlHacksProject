@@ -3,10 +3,10 @@ html, body {
     margin: 0; /* Remove default margin */
 }
 body {
-    background-image: url(background.jpg); 
+    background-image: url(Images/background.jpg); 
 
 }
-.utility-row {
+/* .utility-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -14,7 +14,7 @@ body {
     background-size: cover;
     height: 100vh;
     margin: 0;
-}
+} */
 @font-face {
     font-family: Ubuntu;
     src: url(Fonts/Ubuntu-Regular.woff);
@@ -50,7 +50,7 @@ body{
 
 .utility-row{
     display: flex;
-    background-color: rgb(139, 138, 135, .2);
+    background-color: rgba(135, 139, 135, 0.2);
     overflow: hidden;
 
 }
