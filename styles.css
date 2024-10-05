@@ -1,3 +1,20 @@
+html, body {
+    height: 100%; /* Ensure the html and body take up the full height */
+    margin: 0; /* Remove default margin */
+}
+body {
+    background-image: url(background.jpg); 
+
+}
+.utility-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
 @font-face {
     font-family: Ubuntu;
     src: url(Fonts/Ubuntu-Regular.woff);
@@ -68,4 +85,4 @@ body{
     color: black;
     font-family: Arial;
     justify-content: center;
-}
+} 
