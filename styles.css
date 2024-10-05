@@ -1,0 +1,14 @@
+.utility-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header {
+    color: black;
+    font-family: Arial;
+    justify-content: center;
+}
+
+.search-bar {
+
+}
