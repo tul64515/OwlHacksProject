@@ -6,7 +6,7 @@ body {
     background-image: url(background.jpg); 
 
 }
-.utility-row{
+.utility-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -15,12 +15,74 @@ body {
     height: 100vh;
     margin: 0;
 }
+@font-face {
+    font-family: Ubuntu;
+    src: url(Fonts/Ubuntu-Regular.woff);
+}
+@font-face {
+    font-family: Komi;
+    src: url(Fonts/KOMIKAX_.woff);
+}
+
+body{
+    margin: 0;
+}
+
+.contain-all{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.title{
+    font-family: Komi;
+    margin-left: 15px;
+}
+
+/* everyhting between the auto and home divs will be moved with it. If anyone wants to play with flexbox to make
+    this system cleaner please be my guest*/
+.auto{
+    margin-left: auto;
+}
+.home{
+    margin-left: auto;
+}
+
+.utility-row{
+    display: flex;
+    background-color: rgb(139, 138, 135, .2);
+    overflow: hidden;
+
+}
+
+
+    .utility-row div{
+    /* unecessary once all divs are replaced with a's in utility row */
+        font-family: Ubuntu;
+        justify-content: center;
+        color: black;
+        font-size: 18px;
+        padding: 35px 14px;
+    }
+    .utility-row a{
+        font-family: Ubuntu;
+        justify-content: center;
+        color: black;
+        font-size: 18px;
+        padding: 35px 14px;
+    }
+        .utility-row a:hover {
+            background-color: rgb(184, 183, 183, .2);
+            color: orangered;
+        }
+
+        .utility-row a:active{
+            background-color: rgba(235, 164, 71, 0.616);
+            color: white;
+        }
+
 .header {
     color: black;
     font-family: Arial;
     justify-content: center;
-}
-
-.search-bar {
-
-}
+} 
