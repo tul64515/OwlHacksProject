@@ -22,7 +22,8 @@ body{
     margin-left: 15px;
 }
 
-/* everyhting between these two divs will be moved with it */
+/* everyhting between the auto and home divs will be moved with it. If anyone wants to play with flexbox to make
+    this system cleaner please be my guest*/
 .auto{
     margin-left: auto;
 }
