@@ -30,7 +30,7 @@
         "hours": "N/A",
         "restroom": "No",
         "parking": "No",
-        "rating": "N/A"
+        "rating": null
       },
       {
         "name": "Franklin Square",
