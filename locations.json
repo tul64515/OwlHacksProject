@@ -1,0 +1,388 @@
+{
+    "locations": [
+      {
+        "name": "Matcha Panda",
+        "type": "Café (Matcha specialty)",
+        "hours": "Mon-Sun: 11am–9pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.6
+      },
+      {
+        "name": "Rail Park",
+        "type": "Public Park",
+        "hours": "Open 24/7",
+        "restroom": "No",
+        "parking": "No",
+        "rating": 4.5
+      },
+      {
+        "name": "Elixir Coffee Roasters",
+        "type": "Café",
+        "hours": "Mon-Fri: 7am–7pm, Sat-Sun: 8am–7pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.7
+      },
+      {
+        "name": "Cecil B. Moore Station Plaza",
+        "type": "Transit Station",
+        "hours": "N/A",
+        "restroom": "No",
+        "parking": "No",
+        "rating": null
+      },
+      {
+        "name": "Franklin Square",
+        "type": "Public Park",
+        "hours": "10am–5pm (seasonal)",
+        "restroom": "Yes",
+        "parking": "Yes",
+        "rating": 4.5
+      },
+      {
+        "name": "Cherry Street Pier",
+        "type": "Art & Event Space",
+        "hours": "Mon-Sun: 11am–11pm",
+        "restroom": "Yes",
+        "parking": "Yes",
+        "rating": 4.6
+      },
+      {
+        "name": "Race Street Pier",
+        "type": "Public Pier/Park",
+        "hours": "Open 24/7",
+        "restroom": "No",
+        "parking": "No",
+        "rating": 4.7
+      },
+      {
+        "name": "Viewing Deck at Penn’s Landing",
+        "type": "Observation Deck",
+        "hours": "Open 24/7",
+        "restroom": "No",
+        "parking": "Yes",
+        "rating": 4.5
+      },
+      {
+        "name": "Spruce Street Harbor Park",
+        "type": "Park/Entertainment Area",
+        "hours": "Mon-Sun: 11am–11pm (seasonal)",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.6
+      },
+      {
+        "name": "Independence Square",
+        "type": "Historic Park",
+        "hours": "Open 24/7",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.8
+      },
+      {
+        "name": "Prince Tea House",
+        "type": "Tea Café",
+        "hours": "Mon-Sun: 11am–11pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.4
+      },
+      {
+        "name": "City Hall",
+        "type": "Historic Building",
+        "hours": "Mon-Fri: 9am–5pm",
+        "restroom": "Yes",
+        "parking": "Yes",
+        "rating": 4.6
+      },
+      {
+        "name": "Love Park",
+        "type": "Public Park",
+        "hours": "Open 24/7",
+        "restroom": "No",
+        "parking": "No",
+        "rating": 4.5
+      },
+      {
+        "name": "Lenfest Plaza",
+        "type": "Public Plaza",
+        "hours": "Open 24/7",
+        "restroom": "No",
+        "parking": "No",
+        "rating": 4.5
+      },
+      {
+        "name": "Mango Mango",
+        "type": "Dessert Café",
+        "hours": "Mon-Sun: 11am–10pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.4
+      },
+      {
+        "name": "The Village Park",
+        "type": "Public Park",
+        "hours": "Open 24/7",
+        "restroom": "No",
+        "parking": "No",
+        "rating": 4.2
+      },
+      {
+        "name": "Saxby’s",
+        "type": "Café",
+        "hours": "Mon-Sun: 7am–6pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.4
+      },
+      {
+        "name": "Richie’s Cafe",
+        "type": "Café",
+        "hours": "Mon-Fri: 6am–5pm, Sat: 7am–3pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.3
+      },
+      {
+        "name": "the daily.",
+        "type": "Café",
+        "hours": "Mon-Fri: 8am–4pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.5
+      },
+      {
+        "name": "Gryphon Cafe",
+        "type": "Café",
+        "hours": "Mon-Sun: 7am–7pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.4
+      },
+      {
+        "name": "Frozen – Rolled Ice Cream",
+        "type": "Ice Cream Shop",
+        "hours": "Mon-Sun: 12pm–10pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.5
+      },
+      {
+        "name": "Tea Do",
+        "type": "Bubble Tea Shop",
+        "hours": "Mon-Sun: 11am–9pm",
+        "restroom": "No",
+        "parking": "No",
+        "rating": 4.5
+      },
+      {
+        "name": "Paris Baguette",
+        "type": "Bakery & Café",
+        "hours": "Mon-Sun: 7am–9pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.6
+      },
+      {
+        "name": "A La Mousse",
+        "type": "Dessert Café",
+        "hours": "Mon-Sun: 12pm–10pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.7
+      },
+      {
+        "name": "Dilworth Park",
+        "type": "Public Park",
+        "hours": "Open 24/7",
+        "restroom": "Yes",
+        "parking": "Yes",
+        "rating": 4.5
+      },
+      {
+        "name": "Penn Treaty Park",
+        "type": "Public Park",
+        "hours": "Open 24/7",
+        "restroom": "No",
+        "parking": "Yes",
+        "rating": 4.6
+      },
+      {
+        "name": "Girard Fountain Park",
+        "type": "Public Park",
+        "hours": "Open 24/7",
+        "restroom": "No",
+        "parking": "No",
+        "rating": 4.4
+      },
+      {
+        "name": "Schuylkill Park",
+        "type": "Public Park",
+        "hours": "Open 24/7",
+        "restroom": "No",
+        "parking": "Yes",
+        "rating": 4.8
+      },
+      {
+        "name": "Four Green Cats Café",
+        "type": "Café",
+        "hours": "Mon-Sun: 7am–7pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.5
+      },
+      {
+        "name": "Surreal Creamery",
+        "type": "Dessert Café",
+        "hours": "Mon-Sun: 12pm–9pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.6
+      },
+      {
+        "name": "Paine’s Park",
+        "type": "Skate Park",
+        "hours": "Open 24/7",
+        "restroom": "No",
+        "parking": "Yes",
+        "rating": 4.5
+      },
+      {
+        "name": "Azalea Garden",
+        "type": "Public Garden",
+        "hours": "Open 24/7",
+        "restroom": "No",
+        "parking": "Yes",
+        "rating": 4.7
+      },
+      {
+        "name": "Hey Yogurt",
+        "type": "Dessert Café",
+        "hours": "Mon-Sun: 12pm–9pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.4
+      },
+      {
+        "name": "Gong Cha",
+        "type": "Bubble Tea Shop",
+        "hours": "Mon-Sun: 11am–9pm",
+        "restroom": "No",
+        "parking": "No",
+        "rating": 4.5
+      },
+      {
+        "name": "Washington Square",
+        "type": "Public Park",
+        "hours": "Open 24/7",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.6
+      },
+      {
+        "name": "Coffee Zeit",
+        "type": "Café",
+        "hours": "Mon-Sun: 7am–7pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.4
+      },
+      {
+        "name": "The Random",
+        "type": "Café",
+        "hours": "Mon-Sun: 8am–8pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.3
+      },
+      {
+        "name": "Uncle Bobbie’s Coffee",
+        "type": "Café/Bookstore",
+        "hours": "Mon-Sun: 7am–7pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.7
+      },
+      {
+        "name": "Penn Park",
+        "type": "Public Park",
+        "hours": "Open 24/7",
+        "restroom": "Yes",
+        "parking": "Yes",
+        "rating": 4.7
+      },
+      {
+        "name": "La Colombe Coffee",
+        "type": "Café",
+        "hours": "Mon-Sun: 7am–7pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.8
+      },
+      {
+        "name": "Chapterhouse Café",
+        "type": "Café",
+        "hours": "Mon-Sun: 7am–7pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.4
+      },
+      {
+        "name": "Vault + Vine",
+        "type": "Café/Floral Shop",
+        "hours": "Mon-Sun: 9am–5pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.7
+      },
+      {
+        "name": "J’aime French Bakery",
+        "type": "Bakery & Café",
+        "hours": "Mon-Sun: 7am–8pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.6
+      },
+      {
+        "name": "The Book Corner",
+        "type": "Bookstore",
+        "hours": "Mon-Sat: 10am–6pm",
+        "restroom": "No",
+        "parking": "No",
+        "rating": 4.5
+      },
+      {
+        "name": "Sister Cities Café",
+        "type": "Café",
+        "hours": "Mon-Sun: 7am–7pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.5
+      },
+      {
+        "name": "Café Clover",
+        "type": "Café",
+        "hours": "Mon-Sun: 8am–8pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.3
+      },
+      {
+        "name": "Gilda Café",
+        "type": "Café",
+        "hours": "Mon-Sun: 8am–7pm",
+        "restroom": "Yes",
+        "parking": "No",
+        "rating": 4.4
+      },
+      {
+        "name": "Cira Green",
+        "type": "Rooftop Park",
+        "hours": "Open 24/7",
+        "restroom": "Yes",
+        "parking": "Yes",
+        "rating": 4.7
+      }
+    ]
+  }
