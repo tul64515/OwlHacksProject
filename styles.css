@@ -3,11 +3,16 @@ html, body {
     margin: 0; /* Remove default margin */
 }
 body {
-    background-image: url(background.jpg); 
+    background-image: url(Images/background.jpg); 
 
 }
+<<<<<<< HEAD
 .utility-row {
     display: flex;  /* align items in a row */
+=======
+/* .utility-row {
+    display: flex;
+>>>>>>> 64daf0d2980a605fb538f8d36c1c7dc654968027
     flex-direction: row;
     justify-content: space-between;  /*distribute space between items */
     padding: 10px;  /* adds padding around the utility row */
@@ -15,6 +20,7 @@ body {
     background-size: cover;    /*set background to cover the entire space */
     height: 100vh;
     margin: 0;
+<<<<<<< HEAD
 }
 .utility-row a {
     color: #000; /* Default text color */
@@ -30,6 +36,9 @@ body {
 
 
     
+=======
+} */
+>>>>>>> 64daf0d2980a605fb538f8d36c1c7dc654968027
 @font-face {
     font-family: Ubuntu;
     src: url(Fonts/Ubuntu-Regular.woff);
@@ -65,7 +74,7 @@ body{
 
 .utility-row{
     display: flex;
-    background-color: rgb(139, 138, 135, .2);
+    background-color: rgba(135, 139, 135, 0.2);
     overflow: hidden;
 
 }
