@@ -1,0 +1,46 @@
+<html> 
+    <head>
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+    <style>
+
+        .about-description{
+        font-family: Ubuntu;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+
+
+    </style>
+    <body>
+        <div class = "contain-all">
+            <div class = "utility-row"> 
+                <h1 class = "title" > Philly Hangout Spots </h1>
+                <a class="home" href="website.html"> Home </a>
+                <a class="random" href="random.html"> Random </a>
+                <div> Popular </div>
+                <a class="about" href="about.html"> About </a>
+            </div>
+            <br>
+            <br>const log = (v) => console.log(v);
+          </div>
+          <div id="random-cafe"></div> <!-- Container for the random word -->
+    </div>
+</body>
+</html>
+
+const arr = [
+    "Matcha Panda Cafe",
+    "Elixr Coffee Roasters",
+    "Prince Tea House",
+    "Mango Mango Dessert",
+    "Saxbys Temple University"
+];
+
+// Generate a random index
+const random1 = arr[Math.floor(Math.random() * arr.length)];
+
+//log the random element
+log(random1);
+document.getElementById('random-cafe').textContent = random1;

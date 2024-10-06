@@ -6,15 +6,39 @@ body {
     background-image: url(Images/background.jpg); 
 
 }
+<<<<<<< HEAD
+.utility-row {
+    display: flex;  /* align items in a row */
+=======
 /* .utility-row {
     display: flex;
+>>>>>>> 64daf0d2980a605fb538f8d36c1c7dc654968027
     flex-direction: row;
-    justify-content: space-between;
-    background-image: url(background.jpg);
-    background-size: cover;
+    justify-content: space-between;  /*distribute space between items */
+    padding: 10px;  /* adds padding around the utility row */
+    background-image: url(background.jpg);  /* set background image */
+    background-size: cover;    /*set background to cover the entire space */
     height: 100vh;
     margin: 0;
+<<<<<<< HEAD
+}
+.utility-row a {
+    color: #000; /* Default text color */
+    display: inline-block; /* Makes links respect width and height */
+    padding: 10px 15px; /* Adds padding around links */
+    margin: 0 5px; /* Adds space between links */
+}
+
+.utility-row a:hover {
+    color: #ff6347; /* Change this color to your desired hover color */
+    background-color: rgba(255, 99, 71, 0.1); /* Optional: add a background color on hover */
+}
+
+
+    
+=======
 } */
+>>>>>>> 64daf0d2980a605fb538f8d36c1c7dc654968027
 @font-face {
     font-family: Ubuntu;
     src: url(Fonts/Ubuntu-Regular.woff);
