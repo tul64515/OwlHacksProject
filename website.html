@@ -19,9 +19,57 @@
                 background-color: pink;
             }
 
+        table{
+        display: block;
+        max-width: 800px;
+        height: 400px;
+        overflow: auto;
+        }
+
+        th{
+            position: sticky;
+            top: 0;
+        }
+
         .content{
             display: flex;
             flex-direction: row;
+        }
+
+        .details{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .legend{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .l_ind{
+                display: flex;
+                flex-direction: column;
+                margin: 5px;
+            }
+
+            .l_ind_text{
+                font-family: Ubuntu;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .l_ind_pic{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+        .map{
+            padding-left: 10px;
         }
 
         
@@ -29,9 +77,6 @@
     </style>
     <body>
         <div class = "contain-all">
-            <!-- <div class = "header">
-                <h1 class = "title" > Philly Hangout Spots </h1>
-            </div> -->
             <div class = "utility-row"> 
                 <h1 class = "title" > Philly Hangout Spots </h1>
                 <a class="home" href="website.html"> Home </a>
@@ -45,33 +90,137 @@
                     <iframe id = "google_map" src="https://www.google.com/maps/d/u/0/embed?mid=1y-Sj5SXntEakQRzVSsgEBSIMHzLut3M&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
                 </div>
 
-                <table id="data">
-                    <tbody>
-                        <tr>
-                            <th>Important detail</th>
-                            <th>Bathrooms</th>
-                            <th>Something else</th>
-                        </tr>
-                        <tr>
-                            <td>No</td>
-                            <td>yes</td>
-                            <td><img id="disappear" src="Images/pin.png"></td>
-                        </tr>
-                        <tr>
-                            <td>yes</td>
-                            <td>maybe</td>
-                            <td><img id="vanish" src="Images/pin.png"></td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class = "details">
+                    <table id="data">
+                        <tbody>
+                            <tr>
+                                <th>Important detail</th>
+                                <th>Bathrooms</th>
+                                <th>Something else</th>
+                            </tr>
+                            <tr>
+                                <td>No</td>
+                                <td>yes</td>
+                                <td><img id="disappear" src="Images/pin.png"></td>
+                            </tr>
+                            <tr>
+                                <td>yes</td>
+                                <td>maybe</td>
+                                <td><img id="vanish" src="Images/pin.png"></td>
+                            </tr>
+                            <tr>
+                                <td>yes</td>
+                                <td>maybe</td>
+                                <td><img id="vanish" src="Images/pin.png"></td>
+                            </tr>
+                            <tr>
+                                <td>yes</td>
+                                <td>maybe</td>
+                                <td><img id="vanish" src="Images/pin.png"></td>
+                            </tr>
+                            <tr>
+                                <td>yes</td>
+                                <td>maybe</td>
+                                <td><img id="vanish" src="Images/pin.png"></td>
+                            </tr>
+                            <tr>
+                                <td>yes</td>
+                                <td>maybe</td>
+                                <td><img id="vanish" src="Images/pin.png"></td>
+                            </tr>
+                            <tr>
+                                <td>yes</td>
+                                <td>maybe</td>
+                                <td><img id="vanish" src="Images/pin.png"></td>
+                            </tr>
+                            <tr>
+                                <td>yes</td>
+                                <td>maybe</td>
+                                <td><img id="vanish" src="Images/pin.png"></td>
+                            </tr>
+                            <tr>
+                                <td>yes</td>
+                                <td>maybe</td>
+                                <td><img id="vanish" src="Images/pin.png"></td>
+                            </tr>
+                            <tr>
+                                <td>yes</td>
+                                <td>maybe</td>
+                                <td><img id="vanish" src="Images/pin.png"></td>
+                            </tr>
+                            <tr>
+                                <td>yes</td>
+                                <td>maybe</td>
+                                <td><img id="vanish" src="Images/pin.png"></td>
+                            </tr>
+                            <tr>
+                                <td>yes</td>
+                                <td>maybe</td>
+                                <td><img id="vanish" src="Images/pin.png"></td>
+                            </tr>
+                        </tbody>
+                    </table>
 
-            </div>
+                    <div class="legend">
+                        <div class="l_ind">
+                            <div class="l_ind_pic">
+                                <img src="Images/bathroom.png">
+                            </div>
+                            <div class="l_ind_text">
+                                Bathroom
+                            </div>
+                        </div>
+                        <div class="l_ind">
+                            <div class="l_ind_pic">
+                                <img src="Images/no_bathroom.png">
+                            </div>
+                            <div class="l_ind_text">
+                                No Bathrooms
+                            </div>
+                        </div>
+                        <div class="l_ind">
+                            <div class="l_ind_pic">
+                                <img src="Images/cafe_parking.png">
+                            </div>
+                            <div class="l_ind_text">
+                                Cafe
+                            </div>
+                        </div>
+                        <div class="l_ind">
+                            <div class="l_ind_pic">
+                                <img src="Images/cafe_no_parking.png">
+                            </div>
+                            <div class="l_ind_text">
+                                Cafe w/ No Parking
+                            </div>
+                        </div>
+                        <div class="l_ind">
+                            <div class="l_ind_pic">
+                                <img src="Images/park_parking.png">
+                            </div>
+                            <div class="l_ind_text">
+                                Park
+                            </div>
+                        </div>
+                        <div class="l_ind">
+                            <div class="l_ind_pic">
+                                <img src="Images/park_no_parking.png">
+                            </div>
+                            <div class="l_ind_text">
+                                Park w/ No Parking
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
 
             
         </div>
     </body>
     <script>
 
+
+        // Map switching functions and event listeners
         disappear.addEventListener("click", thing);
         vanish.addEventListener("click", thing2 )
 
